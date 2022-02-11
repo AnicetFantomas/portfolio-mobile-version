@@ -98,6 +98,10 @@ ul, li, a{
     padding-bottom: 40px;
 }
 
+#html:hover{
+    background-color: skyblue;
+}
+
 .first-list{
     padding-bottom: 40px;
     height: 33px;
@@ -114,6 +118,13 @@ ul, li, a{
     padding-bottom: 40px;
 }
 
+
+#css:hover{
+    background-color: skyblue;
+}
+
+
+
 #javaScript{
     background-color: #ebebebff;
     padding-bottom: 40px;
@@ -122,6 +133,13 @@ ul, li, a{
     padding-bottom: 40px;
     width: 120px;
 }
+
+
+#javaScript:hover{
+    background-color: skyblue;
+}
+
+
 
 .to-project{
     padding-bottom: 40px;
@@ -168,10 +186,10 @@ section{
     padding-bottom: 40px;
     border: 2px solid blue;
     height: 45px;
-    width: 150px;
+    width: 190px;
     border-radius: 10px;
     margin: 20px;
-    color: blue;
+    color: rgb(106, 106, 233);
     font-weight: bold;
     padding: 10px 10px;
 }
@@ -198,3 +216,7 @@ section{
     font-weight: bold;
 }
 
+.footer-list{
+    display: flex;
+    flex-direction: column;
+}
